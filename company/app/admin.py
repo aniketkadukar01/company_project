@@ -5,6 +5,8 @@ from .models import (
     Testimonial,
     FrequentlyAskedQuestion,
     ContactFormLog,
+    Author,
+    Blog, 
 )
 
 # Register your models here.
@@ -62,3 +64,21 @@ class ContactFormLogAdmin(admin.ModelAdmin):
         'action_time',
     ]
 
+
+@admin.register(Author)
+class GeneralInfoAdmin(admin.ModelAdmin):
+    list_display = [
+        'first_name',
+        'last_name',
+    ]
+
+
+@admin.register(Blog)
+class BlogAdmin(admin.ModelAdmin):
+    list_display = [
+        'category',
+        'author',
+        'title',
+        'blog_image',
+        'created_at',
+    ]
