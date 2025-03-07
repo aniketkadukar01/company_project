@@ -145,5 +145,5 @@ EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
 EMAIL_HOST_USER = 'aniket.k@amazatic.com'
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_PASSWORD = 'oekl jtah ehih kmup'
 DEFAULT_FROM_EMAIL = 'aniket.k@amazatic.com'
