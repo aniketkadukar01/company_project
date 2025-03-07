@@ -81,12 +81,8 @@ WSGI_APPLICATION = 'company.wsgi.application'
 
 DATABASES = {
     "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "company",
-        "USER": "aniketkadukar01",
-        "PASSWORD": "Admin@123",
-        "HOST": "aniketkadukar01.mysql.pythonanywhere-services.com",
-        # "PORT": "5432",
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": "company_project",
     }
 }
 
